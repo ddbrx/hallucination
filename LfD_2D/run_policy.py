@@ -15,9 +15,9 @@ import torch
 from LfD_main import TrainingParams, LfD_2D_model
 
 update_dt = 0.04
-local_goal_dist = 1.5
-local_path_dir_dist = 0.5
-laser_max_range = 2.0
+local_goal_dist = 1.0
+local_path_dir_dist = 0.4
+laser_max_range = 2.5
 
 a_min = -135
 a_max = 135
